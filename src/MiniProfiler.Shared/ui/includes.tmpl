@@ -81,7 +81,8 @@
 
       <div class="profiler-links">
         <a href="${MiniProfiler.shareUrl(Id)}" class="profiler-share-profiler-results" target="_blank">share</a>
-		{{each CustomLinks}}
+        <a href="${MiniProfiler.historyUrl()}" class="profiler-history-link" target="_blank">history</a>
+		    {{each CustomLinks}}
           <a href="${$value}" class="profiler-custom-link" target="_blank">${$index}</a>
         {{/each}}
         <span class="profiler-toggleable-links">
