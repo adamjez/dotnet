@@ -827,10 +827,6 @@ var MiniProfiler = (function () {
             return options.path + 'results?id=' + id;
         },
 
-        historyUrl: function() {
-            return options.path + 'results-index';
-        },
-
         getClientTimings: function (clientTimings) {
             if (!clientTimings.Timings) return [];
 
